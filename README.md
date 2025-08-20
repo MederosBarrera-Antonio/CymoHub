@@ -1,6 +1,6 @@
 # CymoHub: U-Net, Attention U-Net and Pix2Pix for Seagrass Mapping using WorldView Satellite Imagery
 
-*Note: The results correspond to the article “Comparison of Conventional Machine Learning and Convolutional Deep Learning models for Seagrass Mapping using Satellite Imagery” published in the IEEE STARS journal. Please reference the work if used. Thank you.*
+*Note: The results correspond to the article “Comparison of Conventional Machine Learning and Convolutional Deep Learning models for Seagrass Mapping using Satellite Imagery” published in the IEEE JSTARS journal. Please reference the work if used. Thank you.*
 
 This repository contains data, codes, and final models useful for benthic habitats mapping, especially seagrass, from WorldView-2 multispectral satellite images. Specifically, the code and models of the U-Net, Attention U-Net (U-Net with Attentions Gates in the skip connections) and Pix2Pix (cGAN where the generator is a U-Net and the discriminator is PatchGAN) architectures are published. The PyTorch library with CUDA acceleration has been used for this work (more information in [requirements](#requirements)).
 
